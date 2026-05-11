@@ -55,8 +55,42 @@
 // })
 
 
-function mapnew(val){
+// function mapnew(val){
 
-  for(let i = 0 ; i<val.length;i+2){
-  }
-}
+//   for(let i = 0 ; i<val.length;i+2){
+//   }
+// }
+
+
+ 
+
+// let data = [
+//   {
+//     "name":"tanay",
+//     "post":"ceo"
+//   },
+//   {
+//     "name":"shry",
+//     "post":"manager"
+//   },
+//   {
+//     "name":"tanay",
+//     "post":"cto"
+//   },
+// ]
+// console.log(data);
+// console.table(data);
+
+// for(let i = 0; i<data.length;i++){
+//   console.log(data[i].name);
+  
+// }
+
+
+
+let num = [1,2,3,4,5];
+let total = num.reduce((acc,cv)=>{
+  return acc + cv
+},0);
+
+console.log(total);
