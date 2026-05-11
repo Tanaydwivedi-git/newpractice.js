@@ -37,11 +37,26 @@
 
 
 
-let name = ["oggy" , "jack" , "bob" , "budh" , " badri" , "tom" , "jerry"]
-// console.log(name.join(","));
+// let name = ["oggy" , "jack" , "bob" , "budh" , " badri" , "tom" , "jerry"]
+// // console.log(name.join(","));
 
-//  call back function
-name.forEach(function (value) {
-  console.log(value);                                         
+// //  call back function
+// name.forEach(function (value) {
+//   console.log(value);                                         
   
-});
+// });
+
+
+// let num = [1,2,3,4,5,6,7,8];
+
+// num.map((val)=>{
+//   console.log(val+2);
+  
+// })
+
+
+function mapnew(val){
+
+  for(let i = 0 ; i<val.length;i+2){
+  }
+}
