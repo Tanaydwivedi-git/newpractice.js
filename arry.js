@@ -37,4 +37,11 @@
 
 
 
+let name = ["oggy" , "jack" , "bob" , "budh" , " badri" , "tom" , "jerry"]
+// console.log(name.join(","));
 
+//  call back function
+name.forEach(function (value) {
+  console.log(value);                                         
+  
+});
