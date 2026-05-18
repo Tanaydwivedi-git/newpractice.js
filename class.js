@@ -10,7 +10,20 @@ class person {
     }
 }
 
+class student extends person{
+    constructor(name,age,grade){
+        super(name,age)
+        this.garde= grade
+    }
 
-const USER1  = new person("ram" , 99);
+
+    greet(){
+        console.log(`hello, my name ${this.name} and my age is ${ this.age} and my school grde is ${this.garde}`);
+}
+}
+
+
+
+const USER1  = new student("ram" , 99 , "100");
 
 USER1.greet()
